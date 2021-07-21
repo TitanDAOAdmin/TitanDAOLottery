@@ -507,7 +507,7 @@ const BuyTicketImagetyled = styled.div`
 const AmountStyled = styled.span`
   font-size: 16px;
   font-weight: 700;
-  color: #2dfc8b;
+  color: #eac85c;
 `;
 
 const ApproveButtonStyled = styled.button`
