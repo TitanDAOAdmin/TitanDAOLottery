@@ -132,7 +132,7 @@ const TicketDetail: React.FC = () => {
                 ) : (
                   <StyledCountdown>
                     {isPastClosing ? (
-                      <div>Awaiting for results...</div>
+                      <div>Awaiting results...</div>
                     ) : (
                       <NextDrawCountdown to={closing ? new Date(closing) : undefined} />
                     )}
