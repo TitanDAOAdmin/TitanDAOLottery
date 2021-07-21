@@ -42,9 +42,9 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder>3</StyledOrder>
             <StyledContent>
-              The competition will happen every day 2 PM UTC. You win if your Ticket number
+              The competition will happen every day 3 PM UTC. You win if your Ticket number
               matches at least 3 numbers.{' '}
-              <a href={ExternalLinks.rules} target="_blank">
+              <a href="https://titandao.gitbook.io/titandao/initiatives/initiatives" target="_blank">
                 See rules and example
               </a>
               .
