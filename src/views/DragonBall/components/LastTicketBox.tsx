@@ -71,7 +71,7 @@ const StyledTotalTicketPrize = styled.div`
   .prize-value {
     text-transform: uppercase;
     font-weight: 700;
-    color: #2dfc8b;
+    color: #eac85c;
     margin-left: 8px;
   }
   .prize-unit {
