@@ -166,7 +166,7 @@ const StyledContainer = styled.div`
     span {
       font-size: 32px;
       font-weight: bold;
-      color: #2dfc8b;
+      color: #eac85c;
     }
     .symbol {
       font-size: 24px;
