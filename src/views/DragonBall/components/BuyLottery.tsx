@@ -266,6 +266,7 @@ const BuyTickets: React.FC = () => {
         <HeaderStyled>
           <BuyTicketHeaderStyled>
             <BuyTicketImagetyled>
+              <a href="javascript:history.back()">Go Back</a>
               <img src={TicketImg} />
             </BuyTicketImagetyled>
             <BuyTicketLabeltyled>THE TITAN CLUBHOUSE</BuyTicketLabeltyled>
