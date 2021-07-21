@@ -34,15 +34,9 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
             </StyledContent>
           </StyledItem>
           <StyledItem>
-            <StyledOrder>2</StyledOrder>
-            <StyledContent>
-              Buy as many TITAN as you want to receive the ticket numbers.
-            </StyledContent>
-          </StyledItem>
-          <StyledItem>
             <StyledOrder>3</StyledOrder>
             <StyledContent>
-              The competition will happen every day 3 PM UTC. You win if your Ticket number
+              The competition will happen on Tuesday and Saturday at 2 PM UTC. You win if your Ticket number
               matches at least 3 numbers.{' '}
               <a href="https://titandao.gitbook.io/titandao/initiatives/initiatives" target="_blank">
                 See rules and example
