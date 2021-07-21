@@ -199,7 +199,7 @@ const SelectedBallContainerStyled = styled.div`
   padding: 16px 0;
   margin: 0 18px;
   align-items: center;
-  border-bottom: dashed 1px #303030;
+  border-bottom: dashed 0px #303030;
 `;
 
 const IconRemoveStyled = styled.div`
@@ -239,7 +239,7 @@ const BallStyled = styled.div<{ selected?: boolean; isPower?: boolean }>`
 
 const NormalBallContainerStyted = styled.div`
   padding: 15px 18px;
-  border-bottom: dashed 1px ${theme.color.grey[500]};
+  border-bottom: dashed 0px ${theme.color.grey[500]};
   &.power {
     background-color: #232429;
     border-bottom: none;

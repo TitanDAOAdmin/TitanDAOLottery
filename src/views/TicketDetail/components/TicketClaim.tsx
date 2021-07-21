@@ -151,7 +151,7 @@ const StyledContainer = styled.div`
   margin: 0px 58px;
   padding: 24px 0px;
   flex-direction: column;
-  border-top: 1px dashed #d5d5d5;
+  border-top: 0px dashed #d5d5d5;
   .title {
     font-size: 16px;
     font-weight: normal;

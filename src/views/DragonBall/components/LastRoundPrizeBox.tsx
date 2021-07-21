@@ -76,7 +76,7 @@ const StyledWrapper = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
-  border-right: dashed 1px #303030;
+  border-right: dashed 0px #303030;
   padding-right: 18px;
   padding-left: 10px;
   padding-bottom: 12px;

@@ -305,7 +305,7 @@ const StyledDoubleCol = styled.div`
   }
   hr {
     border: 0;
-    border-top: dashed 1px #a2a2a2;
+    border-top: dashed 0px #a2a2a2;
     background-color: transparent;
     margin: 15px 0;
   }
