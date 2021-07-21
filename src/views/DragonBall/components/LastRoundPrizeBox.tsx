@@ -113,7 +113,7 @@ const StyledTotal = styled.div`
       line-height: 1.2;
       text-transform: uppercase;
       font-weight: 700;
-      color: #ff8a3a;
+      color: #eac85c;
     }
     .prize-unit {
       font-size: 1.5rem;
