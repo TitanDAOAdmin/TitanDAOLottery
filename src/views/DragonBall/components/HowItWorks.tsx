@@ -55,9 +55,9 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
             <StyledContent>
               <div>Reward allocation: </div>
               <ul>
-                <li>Jackpot: 60% </li>
+                <li>Jackpot: 50% </li>
                 <li>Match 4: 30% </li>
-                <li>Match 3: 10% </li>
+                <li>Match 3: 20% </li>
               </ul>
               In case of more winners in a category, the pot will be divided.
             </StyledContent>
