@@ -15,7 +15,7 @@ export const ModalUpper = styled.div`
 
 export const ModalCenter = styled.div`
   background-color: ${(props) => props.theme.color.blue[600]};
-  border-bottom: dashed 1px ${(props) => props.theme.color.blue[400]};
+  border-bottom: dashed 0px ${(props) => props.theme.color.blue[400]};
 `;
 
 export const ModalLower = styled.div`

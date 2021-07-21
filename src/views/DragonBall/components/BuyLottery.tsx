@@ -390,7 +390,7 @@ const StyledPaymentContent = styled.div`
 `;
 
 const StyledPaymentHeader = styled.div`
-  border-bottom: 1px dashed #303030;
+  border-bottom: 0px dashed #303030;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -456,7 +456,7 @@ const HeaderStyled = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  border-bottom: dashed 2px #303030;
+  border-bottom: dashed 0px #303030;
   padding-bottom: 13px;
   @media (max-width: 768px) {
     display: block;
@@ -468,7 +468,7 @@ const BuyTicketHeaderStyled = styled.div`
   display: flex;
   align-items: flex-end;
   @media (max-width: 768px) {
-    border-bottom: dashed 2px ${theme.color.primary.main};
+    border-bottom: dashed 0px ${theme.color.primary.main};
     padding-bottom: 20px;
   }
 `;
@@ -553,7 +553,7 @@ const SelectTicketItemContainerStyled = styled.div`
 `;
 const AddNewTicketButtonStyled = styled.button`
   width: 100%;
-  border: dashed 3px #a02029;
+  border: dashed 0px #a02029;
   font-size: 5rem;
   font-weight: 400;
   cursor: pointer;

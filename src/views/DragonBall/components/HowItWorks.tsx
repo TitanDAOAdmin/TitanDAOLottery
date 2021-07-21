@@ -105,7 +105,7 @@ const StyledOrder = styled.div<{ lastOrder?: boolean }>`
       content: '';
       height: 30px;
       width: 1px;
-      border-right: 2px dashed #f2f2f2;
+      border-right: 0px dashed #f2f2f2;
       top: 32px;
       position: absolute;
       @media (max-width: 768px) {
