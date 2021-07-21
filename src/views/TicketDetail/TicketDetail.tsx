@@ -114,7 +114,7 @@ const TicketDetail: React.FC = () => {
                   precision={0}
                   keepZeros={true}
                 />
-                &nbsp;offerings
+                &nbsp;Tickets
               </StyledNumberTicket>
             </BoxHeader>
             <BoxBody>

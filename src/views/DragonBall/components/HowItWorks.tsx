@@ -19,7 +19,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder>1</StyledOrder>
             <StyledContent>
-              One Offering is{' '}
+              One Ticket is{' '}
               <NumberDisplay
                 value={costPerTicket}
                 decimals={18}
@@ -36,13 +36,13 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder>2</StyledOrder>
             <StyledContent>
-              Sacrifice as many TITAN as you want to receive the Offering numbers.
+              Buy as many TITAN as you want to receive the ticket numbers.
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder>3</StyledOrder>
             <StyledContent>
-              The Sacrifice will happen every day 2 PM UTC. You win if your offering number
+              The competition will happen every day 2 PM UTC. You win if your Ticket number
               matches at least 3 numbers.{' '}
               <a href={ExternalLinks.rules} target="_blank">
                 See rules and example

@@ -61,7 +61,7 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
             <div className="total-ticket-sold">
               Total:{' '}
               <NumberDisplay value={ticketsSold} decimals={0} precision={0} keepZeros={true} />{' '}
-              offerings
+              Tickets
             </div>
           </div>
         </StyledPrizeTable>

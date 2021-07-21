@@ -46,7 +46,7 @@ const LostTicketTable: React.FC<LostTicketTableProps> = ({
   }, [take]);
   return (
     <StyledYourTicket>
-      <StyledYourTicketTitle>Your offerings</StyledYourTicketTitle>
+      <StyledYourTicketTitle>Your Tickets</StyledYourTicketTitle>
       {loading ? (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <FontAwesomeIcon className="loading" icon={faCircleNotch} spin size="lg" />
@@ -72,7 +72,7 @@ const LostTicketTable: React.FC<LostTicketTableProps> = ({
                 <div className="info">
                   Showing from {skip + 1} to{' '}
                   {skip + take <= data?.length ? skip + take : data.length} of {data?.length}{' '}
-                  offerings
+                  Tickets
                 </div>
                 <div className="group-button">
                   {skip > 0 && (

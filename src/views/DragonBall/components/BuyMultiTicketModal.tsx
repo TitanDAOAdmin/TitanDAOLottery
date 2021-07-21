@@ -79,7 +79,7 @@ const BuyMultiTicketModal: React.FC<BuyMultiTicketProps> = ({
   return (
     <Modal size="md" padding="0">
       <ModalHeader>
-        <ModalTitle>Add multiple offerings</ModalTitle>
+        <ModalTitle>Add multiple Tickets</ModalTitle>
         <ModalCloseButton onClick={onDismiss}>
           <FontAwesomeIcon icon={faTimes} />
         </ModalCloseButton>
@@ -87,7 +87,7 @@ const BuyMultiTicketModal: React.FC<BuyMultiTicketProps> = ({
       <ModalBody>
         <StyledChooseTicket>
           <img src={imgMulti} />
-          You can add to {limit} offerings
+          You can add to {limit} Tickets
         </StyledChooseTicket>
         <StyledBalance>
           <StyledValue>1</StyledValue>
@@ -115,11 +115,11 @@ const BuyMultiTicketModal: React.FC<BuyMultiTicketProps> = ({
             placeholder={'0'}
           />
           <img src={imgTicketInput} />
-          Offerings
+          Tickets
         </StyledInputContainer>
         <StyledSelect>
           <input type="checkbox" checked={isRandom} onChange={onCheckboxChange} />
-          Randomize all offering numbers
+          Randomize all Ticket numbers
         </StyledSelect>
         <StyledButton
           className="btn"

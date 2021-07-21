@@ -87,7 +87,7 @@ const SelectTicketItem: React.FC<TicketItemProps> = ({
   return (
     <ContainerItem>
       <HeaderStyled active={isValid}>
-        <TicketNumberStyled>OFFERING {index + 1}</TicketNumberStyled>
+        <TicketNumberStyled>Ticket {index + 1}</TicketNumberStyled>
         <RandomButtonStyled onClick={randomTicket}>
           <img src={IconRandom} draggable="false" />
         </RandomButtonStyled>

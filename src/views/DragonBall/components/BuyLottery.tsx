@@ -151,7 +151,7 @@ const BuyTickets: React.FC = () => {
         return `Not Enough ${token?.symbol}`;
 
       default:
-        return 'Sacrifice';
+        return 'Play Now';
     }
   }, [status, token]);
 
@@ -233,7 +233,7 @@ const BuyTickets: React.FC = () => {
 
     const tx = await handleTransactionReceipt(
       diamondHand?.LOTTERY.batchBuyLottoTicket(info?.lotteryId, validTickets?.length, numbers),
-      `Buy ${validTickets.length} TITAN offerings`,
+      `Buy ${validTickets.length} TITAN Tickets`,
     );
 
     if (tx && tx.response) {
@@ -268,10 +268,10 @@ const BuyTickets: React.FC = () => {
             <BuyTicketImagetyled>
               <img src={TicketImg} />
             </BuyTicketImagetyled>
-            <BuyTicketLabeltyled>SACRIFICE YOUR TITAN</BuyTicketLabeltyled>
+            <BuyTicketLabeltyled>THE TITAN CLUBHOUSE</BuyTicketLabeltyled>
           </BuyTicketHeaderStyled>
           <StyledHeaderRight>
-            <StyledRole>Buy up to {LIMIT_TICKET} offerings</StyledRole>
+            <StyledRole>Buy up to {LIMIT_TICKET} Tickets</StyledRole>
             <Spacer />
             <StyledBuyMultiTicket className="btn" onClick={onPresentBuyMultiTicket}>
               Add multiple
@@ -281,7 +281,7 @@ const BuyTickets: React.FC = () => {
         <StyledWrapBody>
           <StyledBody>
             <NumberTicketHeaderStyled>
-              <StyledLabel>Offerings</StyledLabel>
+              <StyledLabel>Tickets</StyledLabel>
             </NumberTicketHeaderStyled>
             <TicketContainerStyled>
               {tickets.map((ticket, index) => {
@@ -302,7 +302,7 @@ const BuyTickets: React.FC = () => {
                 disabled={tickets?.length >= LIMIT_TICKET}
                 onClick={addNewTicket}
               >
-                <AddNewTicketButtonHeader>Add offering</AddNewTicketButtonHeader>
+                <AddNewTicketButtonHeader>Add Ticket</AddNewTicketButtonHeader>
                 <AddNewTicketButtonPlus>+</AddNewTicketButtonPlus>
               </AddNewTicketButtonStyled>
             </TicketContainerStyled>
@@ -330,7 +330,7 @@ const BuyTickets: React.FC = () => {
               </StyledPaymentHeader>
               <StyledPaymentBody>
                 <StyledFlex>
-                  <label>Price per offering</label>
+                  <label>Price per Ticket</label>
                   <BignumberStyled>
                     <NumberDisplay
                       value={info?.costPerTicket}
@@ -342,7 +342,7 @@ const BuyTickets: React.FC = () => {
                   </BignumberStyled>
                 </StyledFlex>
                 <StyledFlex>
-                  <label>Number of offerings</label>
+                  <label>Number of Tickets</label>
                   <BignumberStyled>{validTickets?.length}</BignumberStyled>
                 </StyledFlex>
                 <StyledFlex className="total">

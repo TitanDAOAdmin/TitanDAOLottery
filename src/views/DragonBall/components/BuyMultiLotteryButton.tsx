@@ -110,7 +110,7 @@ const BuyMultiLotteryButton: React.FC<BuyMultiLotteryProps> = ({
     }
     handleTransactionReceipt(
       diamondHand?.LOTTERY.batchBuyLottoTicket(lotteryId, numberTicket, numbers),
-      `Buy ${numberTicket} TITAN Offerings`,
+      `Buy ${numberTicket} TITAN Tickets`,
     );
   }, [
     handleTransactionReceipt,

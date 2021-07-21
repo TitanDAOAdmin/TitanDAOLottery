@@ -15,8 +15,8 @@ const LastTicketsBox: React.FC<{ lotteryId: number }> = ({ lotteryId }) => {
     <StyledWrapper>
       <img className="icon-reward" src={ImgReward} />
       <StyledTicketCount>
-        You have {winCount ? winCount : 0} / {myTickets?.length} winning offerings in this
-        sacrifice round
+        You have {winCount ? winCount : 0} / {myTickets?.length} winning tickets in this
+        round
       </StyledTicketCount>
       <StyledTotalTicketPrize>
         <div className={'prize-title'}>Total Reward:</div>
