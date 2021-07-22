@@ -92,8 +92,8 @@ const TicketDetail: React.FC = () => {
     <Page>
       <Container size="lg">
         <StyledHeader>
-          <a href="javascript:history.back()">Go Back</a>
-          <img src={imageTicket} />
+          <a href="javascript:history.back()">
+          <img src={imageTicket} /></a>
           RESULTS
           <StyledSelect value={roundId} onChange={onSelect}>
             {tickets.map((item, index) => (
