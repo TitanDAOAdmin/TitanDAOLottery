@@ -6,7 +6,7 @@ import ImgCup from 'src/assets/img/cup.svg';
 import NumberDisplay from 'src/components/Number';
 
 interface RoundPrizeBoxProps {
-  total: BigNumber*0.7;
+  total: BigNumber;
   prizes: BigNumber[];
   ticketsSold: BigNumber;
 }
