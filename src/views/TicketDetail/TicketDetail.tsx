@@ -92,7 +92,7 @@ const TicketDetail: React.FC = () => {
     <Page>
       <Container size="lg">
         <StyledHeader>
-          <a href="javascript:history.back()">
+          <a href="http://titandao.vercel.app">
           <img src={imageTicket} /></a>
           RESULTS
           <StyledSelect value={roundId} onChange={onSelect}>
