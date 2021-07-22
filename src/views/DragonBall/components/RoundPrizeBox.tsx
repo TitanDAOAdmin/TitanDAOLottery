@@ -15,7 +15,7 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
   const jackpot = prizes ? prizes[0] : null;
   const matchFour = prizes ? prizes[1] : null;
   const matchThree = prizes ? prizes[2] : null;
-  let total70 = 777;
+  const total70 = 777;
 
   return (
     <Box>
