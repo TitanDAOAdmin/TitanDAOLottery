@@ -92,7 +92,6 @@ const TicketDetail: React.FC = () => {
     <Page>
       <Container size="lg">
         <StyledHeader>
-          <a href="javascript:history.back()"> Go Back </a>
           <img src={imageTicket} />
           RESULTS
           <StyledSelect value={roundId} onChange={onSelect}>
