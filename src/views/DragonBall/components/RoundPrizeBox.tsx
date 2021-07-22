@@ -9,13 +9,14 @@ interface RoundPrizeBoxProps {
   total: BigNumber;
   prizes: BigNumber[];
   ticketsSold: BigNumber;
+  total70: BigNumber;
 }
 
 const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSold }) => {
   const jackpot = prizes ? prizes[0] : null;
   const matchFour = prizes ? prizes[1] : null;
   const matchThree = prizes ? prizes[2] : null;
-  let total70 = 777;
+  total70 = total*2;
 
   return (
     <Box>
