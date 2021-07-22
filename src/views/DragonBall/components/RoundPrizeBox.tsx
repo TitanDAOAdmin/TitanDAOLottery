@@ -24,7 +24,7 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
   const jackpot70 = jackpot7.div(10);
 
   const matchFour7 = matchFour.mul(7);
-  const matchFour70 = matchFour.div(10);
+  const matchFour70 = matchFour7.div(10);
 
   const matchThree7 = matchThree.mul(7);
   const matchThree70 = matchThree7.div(10);
