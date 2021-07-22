@@ -266,8 +266,8 @@ const BuyTickets: React.FC = () => {
         <HeaderStyled>
           <BuyTicketHeaderStyled>
             <BuyTicketImagetyled>
-              <a href="javascript:history.back()">Go Back</a>
-              <img src={TicketImg} />
+              <a href="https://titandao.vercel.app/">
+              <img src={TicketImg} /></a>
             </BuyTicketImagetyled>
             <BuyTicketLabeltyled>THE TITAN CLUBHOUSE</BuyTicketLabeltyled>
           </BuyTicketHeaderStyled>
