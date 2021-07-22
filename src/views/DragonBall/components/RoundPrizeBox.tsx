@@ -16,8 +16,9 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
   const jackpot = prizes ? prizes[0] : null;
   const matchFour = prizes ? prizes[1] : null;
   const matchThree = prizes ? prizes[2] : null;
-  const total70 = total.mul(7);
-  const total77 = total70.div(10);
+
+  const total7 = total.mul(7);
+  const total70 = total7.div(10);
 
   return (
     <Box>
@@ -30,7 +31,7 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
           <div className="content">
             <div>Current Total Rewards</div>
             <div className="prize-value">
-              <NumberDisplay value={total} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={total70} decimals={18} precision={0} keepZeros={true} />
               <span className="prize-unit">TITAN</span>
             </div>
           </div>
