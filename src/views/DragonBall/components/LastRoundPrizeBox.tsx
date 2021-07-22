@@ -28,7 +28,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({
             <div className="prize-title">Total Rewards:</div>
           </div>
           <div className="prize-value">
-            <NumberDisplay value={total70} decimals={18} precision={0} keepZeros={true} />
+            <NumberDisplay value={total} decimals={18} precision={0} keepZeros={true} />
             <span className="prize-unit">TITAN</span>
           </div>
         </div>
@@ -45,7 +45,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({
           <tr>
             <td className="column">Jackpot</td>
             <td className="column">
-              <NumberDisplay value={jackpot70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={jackpot} decimals={18} precision={0} keepZeros={true} />
               <span className="unit">TITAN</span>
             </td>
             <td className="column">{winners?.[0].toNumber()}</td>
@@ -53,7 +53,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({
           <tr>
             <td className="column">Match 4</td>
             <td className="column">
-              <NumberDisplay value={matchFour70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={matchFour} decimals={18} precision={0} keepZeros={true} />
               <span className="unit">TITAN</span>
             </td>
             <td className="column">{winners?.[1].toNumber()}</td>
@@ -61,7 +61,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({
           <tr>
             <td className="column">Match 3</td>
             <td className="column">
-              <NumberDisplay value={matchThree70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={matchThree} decimals={18} precision={0} keepZeros={true} />
               <span className="unit">TITAN</span>
             </td>
             <td className="column">{winners?.[2].toNumber()}</td>
