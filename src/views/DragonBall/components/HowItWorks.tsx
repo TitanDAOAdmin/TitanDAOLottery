@@ -28,14 +28,13 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
               />{' '}
               TITAN.{' '}You can purchase up to 50 tickets per round.
               {' '}
-              TITAN first.
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder>2</StyledOrder>
             <StyledContent>
             If there are no winners per category, the prize accumulates to the next round. If there are multiple winners per category, the price is equally divided.{' '}
-              <a href="https://titandao.gitbook.io/titandao/initiatives/initiatives" target="_blank">
+              <a href="https://titandaox.gitbook.io/titandao/initiatives/clubhouse/titan-jackpot" target="_blank">
                 See rules and examples
               </a>
               .
