@@ -19,9 +19,6 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({
   matchThree,
   winners,
 }) => {
-
-  
-
   return (
     <StyledWrapper>
       <StyledTotal>
