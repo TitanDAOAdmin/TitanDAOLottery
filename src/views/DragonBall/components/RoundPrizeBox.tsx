@@ -17,17 +17,6 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
   const matchFour = prizes ? prizes[1] : null;
   const matchThree = prizes ? prizes[2] : null;
 
-  const total7 = total.mul(7);
-  const total70 = total7.div(10);
-
-  const jackpot7 = jackpot.mul(7);
-  const jackpot70 = jackpot7.div(10);
-
-  const matchFour7 = matchFour.mul(7);
-  const matchFour70 = matchFour7.div(10);
-
-  const matchThree7 = matchThree.mul(7);
-  const matchThree70 = matchThree7.div(10);
 
   return (
     <Box>
@@ -40,7 +29,7 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
           <div className="content">
             <div>Current Total Rewards</div>
             <div className="prize-value">
-              <NumberDisplay value={total70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={total} decimals={18} precision={0} keepZeros={true} />
               <span className="prize-unit">TITAN</span>
             </div>
           </div>
@@ -53,21 +42,21 @@ const RoundPrizeBox: React.FC<RoundPrizeBoxProps> = ({ total, prizes, ticketsSol
           <div className="row">
             <div className="left">Jackpot</div>
             <div className="right jackpot">
-              <NumberDisplay value={jackpot70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={jackpot} decimals={18} precision={0} keepZeros={true} />
               <span className="prize-unit">TITAN</span>
             </div>
           </div>
           <div className="row">
             <div className="left">Match 4</div>
             <div className="right">
-              <NumberDisplay value={matchFour70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={matchFour} decimals={18} precision={0} keepZeros={true} />
               <span className="prize-unit">TITAN</span>
             </div>
           </div>
           <div className="row">
             <div className="left">Match 3</div>
             <div className="right">
-              <NumberDisplay value={matchThree70} decimals={18} precision={0} keepZeros={true} />
+              <NumberDisplay value={matchThree} decimals={18} precision={0} keepZeros={true} />
               <span className="prize-unit">TITAN</span>
             </div>
           </div>
