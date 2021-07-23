@@ -61,7 +61,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>6</StyledOrder>
             <StyledContent>
-              <div>If accessing the game using mobile, please use the <a href="https://titandaox.gitbook.io/titandao/initiatives/clubhouse/titan-jackpot" target="_blank">
+              <div>If accessing the game using mobile, please use the <a href="https://metamask.io/" target="_blank">
               Metamask browser</a></div>
             </StyledContent>
           </StyledItem>
