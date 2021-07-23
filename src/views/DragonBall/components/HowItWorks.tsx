@@ -68,7 +68,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>7</StyledOrder>
             <StyledContent>
-              <div>Play, burn and win while having fun!</a></div>
+              <div>Play, burn and win while having fun!</div>
             </StyledContent>
           </StyledItem>
         </StyledWrapper>
