@@ -55,7 +55,14 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>5</StyledOrder>
             <StyledContent>
-              <div>There are 2 rounds per week, on Tuesdays and Saturdays at 2 pm UTC.</div>
+              <div>There are 2 rounds per week, on Tuesdays and Saturdays at 5 pm UTC.</div>
+            </StyledContent>
+          </StyledItem>
+          <StyledItem>
+            <StyledOrder lastOrder>6</StyledOrder>
+            <StyledContent>
+              <div>If accessing the game using mobile, please use the <a href="https://titandaox.gitbook.io/titandao/initiatives/clubhouse/titan-jackpot" target="_blank">
+              Metamask browser</a></div>
             </StyledContent>
           </StyledItem>
         </StyledWrapper>

@@ -13,7 +13,7 @@ const WaitingApproval: React.FC<WaitingApprovalProps> = ({ message, onDismiss })
   return (
     <Modal size="sm" padding="0">
       <ModalHeader>
-        <ModalTitle>Wating For Confirmation</ModalTitle>
+        <ModalTitle>Waiting For Confirmation</ModalTitle>
         <ModalCloseButton onClick={onDismiss}>
           <FontAwesomeIcon icon={faTimes} />
         </ModalCloseButton>
