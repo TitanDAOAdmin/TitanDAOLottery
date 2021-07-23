@@ -12,10 +12,9 @@ interface LastRoundPrizeBoxProps {
   winners: BigNumber[];
 }
 
-const total8 = total;
-
-
 const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({ total, jackpot, matchFour, matchThree, winners, }) => {
+
+  const total70 = matchThree;
 
   return (
     <StyledWrapper>
@@ -26,7 +25,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({ total, jackpot, m
             <div className="prize-title">Total Rewards:</div>
           </div>
           <div className="prize-value">
-            <NumberDisplay value={total} decimals={18} precision={0} keepZeros={true} />
+            <NumberDisplay value={total70} decimals={18} precision={0} keepZeros={true} />
             <span className="prize-unit">TITAN</span>
           </div>
         </div>
