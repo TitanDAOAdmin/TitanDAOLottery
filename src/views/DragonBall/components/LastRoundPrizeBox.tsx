@@ -14,10 +14,6 @@ interface LastRoundPrizeBoxProps {
 
 const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({ total, jackpot, matchFour, matchThree, winners, }) => {
 
-const total8 = total;
-const total70 = total8;
-
-
   return (
     <StyledWrapper>
       <StyledTotal>
