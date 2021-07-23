@@ -43,19 +43,19 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>3</StyledOrder>
             <StyledContent>
-              <div>15% of the prize pool is burned. Even when you do not win you are helping make TITAN great again!</div>
+              <div>A tax is deducted from the prize pool for token burns and to launch new products to the TITAN community.</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder lastOrder>4</StyledOrder>
             <StyledContent>
-              <div>The prizes are shown net of the 30% tax. The tax is used for token burns and to fund TitanDAO.</div>
+              <div>Even when you do not win you are helping make TITAN great again via TITAN burns.</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder lastOrder>5</StyledOrder>
             <StyledContent>
-              <div>There are 2 rounds per week, on Tuesdays and Saturdays at 5 pm UTC.</div>
+              <div>There are 2 rounds per week, on Mondays and Thursdays at 9 am UTC.</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
@@ -63,6 +63,12 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
             <StyledContent>
               <div>If accessing the game using mobile, please use the <a href="https://metamask.io/" target="_blank">
               Metamask browser</a></div>
+            </StyledContent>
+          </StyledItem>
+          <StyledItem>
+            <StyledOrder lastOrder>7</StyledOrder>
+            <StyledContent>
+              <div>Play, burn and win while having fun!</a></div>
             </StyledContent>
           </StyledItem>
         </StyledWrapper>
