@@ -1,6 +1,6 @@
 {
   "Lottery": {
-    "address": "0x12D0532375f584467F22F364B4A16FfbCbc6d4C2",
+    "address": "0xEd004aE0FF99f7991561cc823798B3b726dff2d9",
     "abi": [
       {
         "inputs": [
@@ -934,7 +934,7 @@
     ]
   },
   "PrizeReservePool": {
-    "address": "0x83F687975C5954Cc87C6B3e6eb7cC885265E4d60",
+    "address": "0x5dE52cB58606a89DC5CADB068F5157300E3C2D4A",
     "abi": [
       {
         "inputs": [
@@ -1072,7 +1072,7 @@
     ]
   },
   "RandomNumberGenerator": {
-    "address": "0xD5Da2aDbf5dEd56bd487595Dc87093C50752e43D",
+    "address": "0xf5A63e7812C170eFDEBa63AE12a1A601043A982B",
     "abi": [
       {
         "inputs": [
@@ -1274,7 +1274,7 @@
     ]
   },
   "Ticket": {
-    "address": "0xdE093d7C81201808CcB18793b37F966664496dFA",
+    "address": "0x7beDcd2a75A01B1bE7eCbB85307f9b426717fF22",
     "abi": [
       {
         "inputs": [
