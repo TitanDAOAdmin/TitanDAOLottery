@@ -14,7 +14,7 @@ interface LastRoundPrizeBoxProps {
 
 const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({ total, jackpot, matchFour, matchThree, winners }) => {
 
-    
+
 
   return (
     <StyledWrapper>
@@ -25,7 +25,7 @@ const LastRoundPrizeBox: React.FC<LastRoundPrizeBoxProps> = ({ total, jackpot, m
             <div className="prize-title">Total Rewards:</div>
           </div>
           <div className="prize-value">
-            <NumberDisplay value={total1} decimals={18} precision={0} keepZeros={true} />
+            <NumberDisplay value={total} decimals={18} precision={0} keepZeros={true} />
             <span className="prize-unit">TITAN</span>
           </div>
         </div>
