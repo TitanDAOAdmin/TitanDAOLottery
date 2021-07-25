@@ -4,7 +4,7 @@ import Container from 'src/components/Container';
 import Page from 'src/components/Page';
 import styled from 'styled-components';
 import imageTicket from '../../assets/img/ticket-white.svg';
-import imageWin from '../../assets/img/image-win.webp';
+import imageWin from '../../assets/img/image-win.png';
 import imageClock from '../../assets/img/img-clock.png';
 import ImgBallNormal from 'src/assets/img/ball-normal-large.svg';
 import ImgBallPower from 'src/assets/img/ball-power-large.svg';
