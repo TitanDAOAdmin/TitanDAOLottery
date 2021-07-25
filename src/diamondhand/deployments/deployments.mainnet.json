@@ -2027,7 +2027,7 @@
     ]
   },
   "TaxService": {
-    "address": "0x5dc5Fa3A7fb9793aE96912faDBb16fa95af8Ef35",
+    "address": "0xC93e22D2AB977B62aaaABFD34E03aCA604D1016B",
     "abi": [
       {
         "anonymous": false,
