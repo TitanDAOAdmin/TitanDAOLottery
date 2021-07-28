@@ -33,9 +33,9 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder>2</StyledOrder>
             <StyledContent>
-            If there are no winners per category, the prize accumulates to the next round. If there are multiple winners per category, the price is equally divided.{' '}
+            If there are no winners per round, the prize accumulates to the next one. If there are multiple winners per round, the price is equally divided.{' '}
               <a href="https://titandaox.gitbook.io/titandao/initiatives/clubhouse/titan-jackpot" target="_blank">
-                See rules and examples
+                Please see rules and examples
               </a>
               .
             </StyledContent>
@@ -43,19 +43,19 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>3</StyledOrder>
             <StyledContent>
-              <div>A tax is deducted from the prize pool for token burns and to launch new products to the TITAN community.</div>
+              <div>A tax is deducted from the prize pool for token burns to launch new products for the TITAN community.</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder lastOrder>4</StyledOrder>
             <StyledContent>
-              <div>Even when you do not win you are helping make TITAN great again via TITAN burns.</div>
+              <div>Even when you do not win you are helping make TITAN great again via TITAN burns</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
             <StyledOrder lastOrder>5</StyledOrder>
             <StyledContent>
-              <div>There are 2 rounds per week, on Mondays and Thursdays at 9 am UTC.</div>
+              <div>There are 2 rounds per week, on Mondays and Thursdays at 9 am UTC</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
