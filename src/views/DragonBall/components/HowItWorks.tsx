@@ -26,7 +26,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
                 precision={0}
                 keepZeros={true}
               />{' '}
-              TITAN.{' '}You can purchase up to 50 tickets per round.
+              TITAN.{' '}You can purchase up to 50 tickets per transaction.
               {' '}
             </StyledContent>
           </StyledItem>
