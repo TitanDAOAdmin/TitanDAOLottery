@@ -55,7 +55,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ costPerTicket }) => {
           <StyledItem>
             <StyledOrder lastOrder>5</StyledOrder>
             <StyledContent>
-              <div>There is 1 round per week, on Thursdays at 9 am UTC</div>
+              <div>There is one round per week, on Thursdays at 9am UTC</div>
             </StyledContent>
           </StyledItem>
           <StyledItem>
